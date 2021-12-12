@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-saml-based-sign-on",
+  "version": "1.0.0",
+  "description": "SAML based login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalims095/NodeJS-SAML-based-Sign-on.git"
+  },
+  "author": "vishal sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalims095/NodeJS-SAML-based-Sign-on/issues"
+  },
+  "homepage": "https://github.com/vishalims095/NodeJS-SAML-based-Sign-on#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "exprss": "0.0.1-security",
+    "passport": "^0.5.0",
+    "path": "^0.12.7"
+  }
+}
