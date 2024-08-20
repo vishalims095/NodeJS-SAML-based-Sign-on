@@ -3,6 +3,7 @@ const app  = express()
 const path = require('path')
 require('dotenv').config()
 const helmet = require('helmet');
+
 app.use(express.static(path.join(__dirname, "views")));
 // const {
 //     passport,
